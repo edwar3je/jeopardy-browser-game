@@ -1,0 +1,106 @@
+body {
+  background-color: #115ff4;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Gyparody Rg', sans-serif;
+  font-size: 60px;
+  color: #ffcc00;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'ITC Korinna Std', sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+h3 {
+  font-family: 'ITC Korinna Std', sans-serif;
+  color: #ffffff;
+  font-size: 30px;
+}
+
+div.loadcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+/* loading animation provided by W3 schools per link: https://www.w3schools.com/howto/howto_css_loader.asp */
+
+.loading {
+  border: 16px solid #000000; /* Black */
+  border-top: 16px solid #ffcc00; /* Gold */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  position: relative;
+  left: 46%;
+}
+
+/* loading animation provided by W3 schools per link: https://www.w3schools.com/howto/howto_css_loader.asp */
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+div.gamecontainer {
+  display: flex;
+  justify-content: center;
+}
+
+table {
+  background-color: #000000;
+  border-spacing: 10px;
+}
+
+th {
+  height: 100px;
+  width: 225px;
+  margin: 15px;
+  background-color: #060ce9;
+  color: #ffffff;
+  font-family: 'ITC Korinna Std', sans-serif;
+  font-size: 17px;
+}
+
+td {
+  height: 100px;
+  width: 200px;
+  margin: 15px;
+  background-color: #060ce9;
+  text-align: center;
+  color: #ffcc00;
+  font-family: 'ITC Korinna Std', sans-serif;
+  font-size: 17px;
+}
+
+div.buttoncontainer {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  position: relative;
+  top: 15px;
+  height: 40px;
+  width: 250px;
+  font-family: 'ITC Korinna Std', sans-serif;
+  font-size: 20px;
+  color: #ffffff;
+  background-color: #060ce9;
+  border-radius: 5px #000000
+}
+
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
